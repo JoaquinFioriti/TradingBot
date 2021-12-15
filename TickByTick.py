@@ -62,7 +62,7 @@ class ContractMaker:
 class Main:
     # Connecting to the TWS API
     app = TestApp()
-    app.connect("127.0.0.1", 7497, 0)
+    app.connect("127.0.0.1", 7496, 0)
 
     # Creating a contract
     contract = ContractMaker.createContract("EUR", "CASH", "IDEALPRO",
